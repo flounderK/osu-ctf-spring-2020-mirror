@@ -1,0 +1,709 @@
+TCP/UDP/... Sessions
+File: capture2.pcap, Type: tcpdump, Created at: Fri Mar 27 22:51:25 2020
+
+1    192.168.32.255:57621 <-> 192.168.32.1:57621   (57621)          88 bytes
+2    127.0.0.1:54080 <-> 127.0.0.53:53             (domain)        552 bytes
+"       stream_0002.domain.html                                    718 bytes
+"       session_0002.domain.txt                                    836 bytes
+3    192.168.32.128:33622 <-> 192.168.32.2:53      (domain)        264 bytes
+"       stream_0003.domain.html                                    347 bytes
+"       session_0003.domain.txt                                    832 bytes
+4    192.168.32.128:49715 <-> 192.168.32.2:53      (domain)        288 bytes
+"       stream_0004.domain.html                                    371 bytes
+"       session_0004.domain.txt                                    861 bytes
+5    192.168.32.128:38898 -> 172.232.14.35:80      (http)          680 bytes
+"       session_0005.http.html                                     731 bytes
+"       session_0005.part_01.asc                                     8 bytes
+6    127.0.0.1:55137 <-> 127.0.0.53:53             (domain)        360 bytes
+"       stream_0006.domain.html                                    462 bytes
+"       session_0006.domain.txt                                    702 bytes
+7    192.168.32.128:52354 <-> 192.168.32.2:53      (domain)        168 bytes
+"       stream_0007.domain.html                                    219 bytes
+"       session_0007.domain.txt                                    677 bytes
+8    192.168.32.128:45993 <-> 192.168.32.2:53      (domain)        192 bytes
+"       stream_0008.domain.html                                    243 bytes
+"       session_0008.domain.txt                                    698 bytes
+9    127.0.0.1:52599 <-> 127.0.0.53:53             (domain)         96 bytes
+"       stream_0009.domain.html                                    147 bytes
+"       session_0009.domain.txt                                    531 bytes
+10   192.168.32.128:39627 <-> 192.168.32.2:53      (domain)         96 bytes
+"       stream_0010.domain.html                                    147 bytes
+"       session_0010.domain.txt                                    526 bytes
+11   192.168.32.128:38900 -> 172.232.14.35:80      (http)          685 bytes
+"       session_0011.http.html                                     736 bytes
+"       session_0011.part_01.asc                                     8 bytes
+12   127.0.0.1:57746 <-> 127.0.0.53:53             (domain)        176 bytes
+"       stream_0012.domain.html                                    284 bytes
+"       session_0012.domain.txt                                    531 bytes
+13   127.0.0.1:33419 <-> 127.0.0.53:53             (domain)        499 bytes
+"       stream_0013.domain.html                                    640 bytes
+"       session_0013.domain.txt                                    865 bytes
+14   192.168.32.128:48859 <-> 192.168.32.2:53      (domain)        160 bytes
+"       stream_0014.domain.html                                    214 bytes
+"       session_0014.domain.txt                                    676 bytes
+15   127.0.0.1:58687 <-> 127.0.0.53:53             (domain)        552 bytes
+"       stream_0015.domain.html                                    718 bytes
+"       session_0015.domain.txt                                    865 bytes
+16   192.168.32.128:38628 -> 104.16.142.228:443    (https)       91138 bytes
+17   127.0.0.1:59325 <-> 127.0.0.53:53             (domain)        624 bytes
+"       stream_0017.domain.html                                    726 bytes
+"       session_0017.domain.txt                                   1272 bytes
+18   192.168.32.128:58977 <-> 192.168.32.2:53      (domain)        232 bytes
+"       stream_0018.domain.html                                    283 bytes
+"       session_0018.domain.txt                                    803 bytes
+19   192.168.32.128:40108 <-> 192.168.32.2:53      (domain)        392 bytes
+"       stream_0019.domain.html                                    443 bytes
+"       session_0019.domain.txt                                   1267 bytes
+20   127.0.0.1:43384 <-> 127.0.0.53:53             (domain)        384 bytes
+"       stream_0020.domain.html                                    518 bytes
+"       session_0020.domain.txt                                    599 bytes
+21   192.168.32.128:38933 <-> 192.168.32.2:53      (domain)        224 bytes
+"       stream_0021.domain.html                                    307 bytes
+"       session_0021.domain.txt                                    901 bytes
+22   192.168.32.128:59815 <-> 192.168.32.2:53      (domain)        242 bytes
+"       stream_0022.domain.html                                    328 bytes
+"       session_0022.domain.txt                                    779 bytes
+23   127.0.0.1:41867 <-> 127.0.0.53:53             (domain)        632 bytes
+"       stream_0023.domain.html                                    836 bytes
+"       session_0023.domain.txt                                    742 bytes
+24   192.168.32.128:58397 <-> 192.168.32.2:53      (domain)        380 bytes
+"       stream_0024.domain.html                                    498 bytes
+"       session_0024.domain.txt                                   1463 bytes
+25   192.168.32.128:57211 <-> 192.168.32.2:53      (domain)        330 bytes
+"       stream_0025.domain.html                                    451 bytes
+"       session_0025.domain.txt                                    922 bytes
+26   192.168.32.128:40706 -> 99.84.216.4:443       (https)        3188 bytes
+27   192.168.32.128:58586 <-> 192.168.32.2:53      (domain)        246 bytes
+"       stream_0027.domain.html                                    335 bytes
+"       session_0027.domain.txt                                    722 bytes
+28   127.0.0.1:60264 <-> 127.0.0.53:53             (domain)        176 bytes
+"       stream_0028.domain.html                                    278 bytes
+"       session_0028.domain.txt                                    500 bytes
+29   192.168.32.128:58402 -> 63.245.208.195:443    (https)        4505 bytes
+30   192.168.32.128:45693 <-> 192.168.32.2:53      (domain)        264 bytes
+"       stream_0030.domain.html                                    350 bytes
+"       session_0030.domain.txt                                    731 bytes
+31   192.168.32.128:35944 -> 3.221.201.246:443     (https)       18930 bytes
+32   192.168.32.128:37096 -> 52.35.6.89:443        (https)        8438 bytes
+33   127.0.0.1:54022 <-> 127.0.0.53:53             (domain)        632 bytes
+"       stream_0033.domain.html                                    836 bytes
+"       session_0033.domain.txt                                    742 bytes
+34   192.168.32.128:37098 -> 52.35.6.89:443        (https)        9002 bytes
+35   127.0.0.1:49259 <-> 127.0.0.53:53             (domain)        638 bytes
+"       stream_0035.domain.html                                    772 bytes
+"       session_0035.domain.txt                                    813 bytes
+36   192.168.32.128:54387 <-> 192.168.32.2:53      (domain)        239 bytes
+"       stream_0036.domain.html                                    290 bytes
+"       session_0036.domain.txt                                    808 bytes
+37   192.168.32.128:37448 <-> 192.168.32.2:53      (domain)        399 bytes
+"       stream_0037.domain.html                                    482 bytes
+"       session_0037.domain.txt                                   1279 bytes
+38   127.0.0.1:46348 <-> 127.0.0.53:53             (domain)        284 bytes
+"       stream_0038.domain.html                                    386 bytes
+"       session_0038.domain.txt                                    705 bytes
+39   192.168.32.128:52616 <-> 192.168.32.2:53      (domain)        174 bytes
+"       stream_0039.domain.html                                    225 bytes
+"       session_0039.domain.txt                                    701 bytes
+40   192.168.32.128:42656 <-> 192.168.32.2:53      (domain)        191 bytes
+"       stream_0040.domain.html                                    274 bytes
+"       session_0040.domain.txt                                    684 bytes
+41   192.168.32.128:38086 -> 99.84.110.14:443      (https)       34871 bytes
+42   192.168.32.128:46012 -> 99.84.222.141:80      (http)         1394 bytes
+"       session_0042.http.html                                    1574 bytes
+"       session_0042.part_01.ocsp                                  471 bytes
+43   127.0.0.1:49601 <-> 127.0.0.53:53             (domain)        264 bytes
+"       stream_0043.domain.html                                    366 bytes
+"       session_0043.domain.txt                                    555 bytes
+44   192.168.32.128:47002 <-> 192.168.32.2:53      (domain)        140 bytes
+"       stream_0044.domain.html                                    191 bytes
+"       session_0044.domain.txt                                    587 bytes
+45   192.168.32.128:58705 <-> 192.168.32.2:53      (domain)        189 bytes
+"       stream_0045.domain.html                                    275 bytes
+"       session_0045.domain.txt                                    715 bytes
+46   127.0.0.1:45386 <-> 127.0.0.53:53             (domain)        568 bytes
+"       stream_0046.domain.html                                    734 bytes
+"       session_0046.domain.txt                                    903 bytes
+47   192.168.32.128:50138 <-> 192.168.32.2:53      (domain)        264 bytes
+"       stream_0047.domain.html                                    347 bytes
+"       session_0047.domain.txt                                    822 bytes
+48   192.168.32.128:56698 <-> 192.168.32.2:53      (domain)        304 bytes
+"       stream_0048.domain.html                                    387 bytes
+"       session_0048.domain.txt                                    900 bytes
+49   192.168.32.128:36429 <-> 192.168.32.2:53      (domain)        162 bytes
+"       stream_0049.domain.html                                    245 bytes
+"       session_0049.domain.txt                                    667 bytes
+50   192.168.32.128:51598 -> 72.21.91.29:80        (http)         3533 bytes
+"       session_0050.http.html                                    3992 bytes
+"       session_0050.part_01.ocsp                                  471 bytes
+"       session_0050.part_02.ocsp                                  471 bytes
+"       session_0050.part_03.ocsp                                  471 bytes
+51   192.168.32.128:51600 -> 72.21.91.29:80        (http)         3529 bytes
+"       session_0051.http.html                                    3915 bytes
+"       session_0051.part_01.ocsp                                  471 bytes
+"       session_0051.part_02.ocsp                                  471 bytes
+"       session_0051.part_03.ocsp                                  471 bytes
+52   192.168.32.128:51602 -> 72.21.91.29:80        (http)         2734 bytes
+"       session_0052.http.html                                    3097 bytes
+"       session_0052.part_01.ocsp                                  471 bytes
+"       session_0052.part_02.ocsp                                  471 bytes
+53   192.168.32.128:36100 -> 104.114.161.71:443    (https)        4313 bytes
+54   192.168.32.128:36102 -> 104.114.161.71:443    (https)        4576 bytes
+55   192.168.32.128:36104 -> 104.114.161.71:443    (https)       79955 bytes
+56   127.0.0.1:48392 <-> 127.0.0.53:53             (domain)        632 bytes
+"       stream_0056.domain.html                                    836 bytes
+"       session_0056.domain.txt                                    743 bytes
+57   192.168.32.128:37116 -> 52.35.6.89:443        (https)        3602 bytes
+58   127.0.0.1:49130 <-> 127.0.0.53:53             (domain)        344 bytes
+"       stream_0058.domain.html                                    446 bytes
+"       session_0058.domain.txt                                    654 bytes
+59   192.168.32.128:35222 <-> 192.168.32.2:53      (domain)        166 bytes
+"       stream_0059.domain.html                                    217 bytes
+"       session_0059.domain.txt                                    633 bytes
+60   192.168.32.128:60304 <-> 192.168.32.2:53      (domain)        178 bytes
+"       stream_0060.domain.html                                    229 bytes
+"       session_0060.domain.txt                                    651 bytes
+61   192.168.32.128:37122 -> 172.217.4.72:443      (https)       44179 bytes
+62   127.0.0.1:46704 <-> 127.0.0.53:53             (domain)        282 bytes
+"       stream_0062.domain.html                                    384 bytes
+"       session_0062.domain.txt                                    591 bytes
+63   192.168.32.128:50517 <-> 192.168.32.2:53      (domain)        135 bytes
+"       stream_0063.domain.html                                    186 bytes
+"       session_0063.domain.txt                                    586 bytes
+64   192.168.32.128:40565 <-> 192.168.32.2:53      (domain)        147 bytes
+"       stream_0064.domain.html                                    198 bytes
+"       session_0064.domain.txt                                    605 bytes
+65   127.0.0.1:34372 <-> 127.0.0.53:53             (domain)        536 bytes
+"       stream_0065.domain.html                                    702 bytes
+"       session_0065.domain.txt                                    875 bytes
+66   192.168.32.128:33349 <-> 192.168.32.2:53      (domain)        248 bytes
+"       stream_0066.domain.html                                    331 bytes
+"       session_0066.domain.txt                                    791 bytes
+67   192.168.32.128:42195 <-> 192.168.32.2:53      (domain)        288 bytes
+"       stream_0067.domain.html                                    371 bytes
+"       session_0067.domain.txt                                    871 bytes
+68   192.168.32.128:55608 -> 172.217.4.99:80       (http)         5414 bytes
+"       session_0068.http.html                                    6109 bytes
+"       session_0068.part_01.ocsp                                  471 bytes
+"       session_0068.part_02.ocsp                                  471 bytes
+"       session_0068.part_03.ocsp                                  472 bytes
+"       session_0068.part_04.ocsp                                  471 bytes
+"       session_0068.part_05.ocsp                                  472 bytes
+69   192.168.32.128:49948 -> 104.87.15.64:443      (https)       29242 bytes
+70   127.0.0.1:33942 <-> 127.0.0.53:53             (domain)        268 bytes
+"       stream_0070.domain.html                                    370 bytes
+"       session_0070.domain.txt                                    579 bytes
+71   192.168.32.128:39024 <-> 192.168.32.2:53      (domain)        128 bytes
+"       stream_0071.domain.html                                    179 bytes
+"       session_0071.domain.txt                                    559 bytes
+72   192.168.32.128:57844 <-> 192.168.32.2:53      (domain)        140 bytes
+"       stream_0072.domain.html                                    191 bytes
+"       session_0072.domain.txt                                    575 bytes
+73   192.168.32.128:49830 -> 216.58.192.138:443    (https)      125709 bytes
+74   127.0.0.1:49485 <-> 127.0.0.53:53             (domain)        632 bytes
+"       stream_0074.domain.html                                    836 bytes
+"       session_0074.domain.txt                                    743 bytes
+75   127.0.0.1:57786 <-> 127.0.0.53:53             (domain)        356 bytes
+"       stream_0075.domain.html                                    458 bytes
+"       session_0075.domain.txt                                    580 bytes
+76   192.168.32.128:36970 <-> 192.168.32.2:53      (domain)        210 bytes
+"       stream_0076.domain.html                                    261 bytes
+"       session_0076.domain.txt                                    779 bytes
+77   192.168.32.128:46045 <-> 192.168.32.2:53      (domain)        227 bytes
+"       stream_0077.domain.html                                    278 bytes
+"       session_0077.domain.txt                                    764 bytes
+78   192.168.32.128:51489 <-> 192.168.32.2:53      (domain)        197 bytes
+"       stream_0078.domain.html                                    248 bytes
+"       session_0078.domain.txt                                    702 bytes
+79   127.0.0.1:54807 <-> 127.0.0.53:53             (domain)        282 bytes
+"       stream_0079.domain.html                                    384 bytes
+"       session_0079.domain.txt                                    609 bytes
+80   192.168.32.128:55614 -> 172.217.4.99:80       (http)         1084 bytes
+"       session_0080.http.html                                    1234 bytes
+"       session_0080.part_01.ocsp                                  472 bytes
+81   192.168.32.128:39052 -> 99.86.230.100:443     (https)       19245 bytes
+82   127.0.0.1:35519 <-> 127.0.0.53:53             (domain)        308 bytes
+"       stream_0082.domain.html                                    410 bytes
+"       session_0082.domain.txt                                    577 bytes
+83   192.168.32.128:57004 <-> 192.168.32.2:53      (domain)        162 bytes
+"       stream_0083.domain.html                                    213 bytes
+"       session_0083.domain.txt                                    619 bytes
+84   192.168.32.128:33727 <-> 192.168.32.2:53      (domain)        228 bytes
+"       stream_0084.domain.html                                    311 bytes
+"       session_0084.domain.txt                                    748 bytes
+85   192.168.32.128:47395 <-> 192.168.32.2:53      (domain)        191 bytes
+"       stream_0085.domain.html                                    274 bytes
+"       session_0085.domain.txt                                    684 bytes
+86   127.0.0.1:51038 <-> 127.0.0.53:53             (domain)        308 bytes
+"       stream_0086.domain.html                                    410 bytes
+"       session_0086.domain.txt                                    577 bytes
+87   192.168.32.128:56490 -> 54.186.106.198:443    (https)        5210 bytes
+88   127.0.0.1:53791 <-> 127.0.0.53:53             (domain)        244 bytes
+"       stream_0088.domain.html                                    346 bytes
+"       session_0088.domain.txt                                    634 bytes
+89   192.168.32.128:59616 <-> 192.168.32.2:53      (domain)        146 bytes
+"       stream_0089.domain.html                                    197 bytes
+"       session_0089.domain.txt                                    630 bytes
+90   192.168.32.128:58574 <-> 192.168.32.2:53      (domain)        179 bytes
+"       stream_0090.domain.html                                    230 bytes
+"       session_0090.domain.txt                                    684 bytes
+91   192.168.32.128:47592 -> 52.89.63.117:443      (https)        5342 bytes
+92   192.168.32.128:39058 -> 99.86.230.100:443     (https)        7775 bytes
+93   192.168.32.128:39060 -> 99.86.230.100:443     (https)         746 bytes
+94   127.0.0.1:59460 <-> 127.0.0.53:53             (domain)        232 bytes
+"       stream_0094.domain.html                                    334 bytes
+"       session_0094.domain.txt                                    642 bytes
+95   192.168.32.128:58003 <-> 192.168.32.2:53      (domain)        148 bytes
+"       stream_0095.domain.html                                    199 bytes
+"       session_0095.domain.txt                                    638 bytes
+96   192.168.32.128:47368 <-> 192.168.32.2:53      (domain)        165 bytes
+"       stream_0096.domain.html                                    216 bytes
+"       session_0096.domain.txt                                    669 bytes
+97   127.0.0.1:51094 <-> 127.0.0.53:53             (domain)        532 bytes
+"       stream_0097.domain.html                                    698 bytes
+"       session_0097.domain.txt                                   1162 bytes
+98   192.168.32.128:48760 <-> 192.168.32.2:53      (domain)        186 bytes
+"       stream_0098.domain.html                                    237 bytes
+"       session_0098.domain.txt                                    747 bytes
+99   192.168.32.128:33160 <-> 192.168.32.2:53      (domain)        346 bytes
+"       stream_0099.domain.html                                    461 bytes
+"       session_0099.domain.txt                                   1157 bytes
+100  127.0.0.1:41910 <-> 127.0.0.53:53             (domain)        364 bytes
+"       stream_0100.domain.html                                    498 bytes
+"       session_0100.domain.txt                                    617 bytes
+101  192.168.32.128:53063 <-> 192.168.32.2:53      (domain)        214 bytes
+"       stream_0101.domain.html                                    297 bytes
+"       session_0101.domain.txt                                    795 bytes
+102  192.168.32.128:56018 <-> 192.168.32.2:53      (domain)        208 bytes
+"       stream_0102.domain.html                                    259 bytes
+"       session_0102.domain.txt                                    772 bytes
+103  127.0.0.1:41769 <-> 127.0.0.53:53             (domain)        228 bytes
+"       stream_0103.domain.html                                    330 bytes
+"       session_0103.domain.txt                                    550 bytes
+104  192.168.32.128:57093 <-> 192.168.32.2:53      (domain)        122 bytes
+"       stream_0104.domain.html                                    173 bytes
+"       session_0104.domain.txt                                    581 bytes
+105  192.168.32.128:46107 <-> 192.168.32.2:53      (domain)        196 bytes
+"       stream_0105.domain.html                                    279 bytes
+"       session_0105.domain.txt                                    729 bytes
+106  192.168.32.128:58642 <-> 192.168.32.2:53      (domain)        163 bytes
+"       stream_0106.domain.html                                    214 bytes
+"       session_0106.domain.txt                                    664 bytes
+107  192.168.32.128:56751 <-> 192.168.32.2:53      (domain)        174 bytes
+"       stream_0107.domain.html                                    225 bytes
+"       session_0107.domain.txt                                    680 bytes
+108  127.0.0.1:35327 <-> 127.0.0.53:53             (domain)        212 bytes
+"       stream_0108.domain.html                                    314 bytes
+"       session_0108.domain.txt                                    508 bytes
+109  192.168.32.128:34865 <-> 192.168.32.2:53      (domain)        114 bytes
+"       stream_0109.domain.html                                    165 bytes
+"       session_0109.domain.txt                                    544 bytes
+110  192.168.32.128:59352 <-> 192.168.32.2:53      (domain)        160 bytes
+"       stream_0110.domain.html                                    211 bytes
+"       session_0110.domain.txt                                    676 bytes
+111  127.0.0.1:43371 <-> 127.0.0.53:53             (domain)        188 bytes
+"       stream_0111.domain.html                                    290 bytes
+"       session_0111.domain.txt                                    503 bytes
+112  192.168.32.128:35748 <-> 192.168.32.2:53      (domain)        102 bytes
+"       stream_0112.domain.html                                    153 bytes
+"       session_0112.domain.txt                                    532 bytes
+113  192.168.32.128:36290 <-> 192.168.32.2:53      (domain)        176 bytes
+"       stream_0113.domain.html                                    227 bytes
+"       session_0113.domain.txt                                    683 bytes
+114  127.0.0.1:36719 <-> 127.0.0.53:53             (domain)        145 bytes
+"       stream_0114.domain.html                                    227 bytes
+"       session_0114.domain.txt                                    537 bytes
+115  192.168.32.128:41595 <-> 192.168.32.2:53      (domain)        102 bytes
+"       stream_0115.domain.html                                    153 bytes
+"       session_0115.domain.txt                                    533 bytes
+116  192.168.32.128:42625 <-> 192.168.32.2:53      (domain)        176 bytes
+"       stream_0116.domain.html                                    233 bytes
+"       session_0116.domain.txt                                    684 bytes
+117  127.0.0.1:39310 <-> 127.0.0.53:53             (domain)        204 bytes
+"       stream_0117.domain.html                                    306 bytes
+"       session_0117.domain.txt                                    506 bytes
+118  192.168.32.128:46089 <-> 192.168.32.2:53      (domain)        110 bytes
+"       stream_0118.domain.html                                    167 bytes
+"       session_0118.domain.txt                                    541 bytes
+119  192.168.32.128:51334 <-> 192.168.32.2:53      (domain)        184 bytes
+"       stream_0119.domain.html                                    267 bytes
+"       session_0119.domain.txt                                    688 bytes
+120  127.0.0.1:60828 <-> 127.0.0.53:53             (domain)        252 bytes
+"       stream_0120.domain.html                                    354 bytes
+"       session_0120.domain.txt                                    555 bytes
+121  192.168.32.128:39065 <-> 192.168.32.2:53      (domain)        134 bytes
+"       stream_0121.domain.html                                    185 bytes
+"       session_0121.domain.txt                                    596 bytes
+122  192.168.32.128:55230 <-> 192.168.32.2:53      (domain)        184 bytes
+"       stream_0122.domain.html                                    235 bytes
+"       session_0122.domain.txt                                    734 bytes
+123  127.0.0.1:52488 <-> 127.0.0.53:53             (domain)        272 bytes
+"       stream_0123.domain.html                                    374 bytes
+"       session_0123.domain.txt                                    612 bytes
+124  192.168.32.128:59793 <-> 192.168.32.2:53      (domain)        124 bytes
+"       stream_0124.domain.html                                    175 bytes
+"       session_0124.domain.txt                                    577 bytes
+125  192.168.32.128:56365 <-> 192.168.32.2:53      (domain)        148 bytes
+"       stream_0125.domain.html                                    199 bytes
+"       session_0125.domain.txt                                    608 bytes
+126  127.0.0.1:54766 <-> 127.0.0.53:53             (domain)        172 bytes
+"       stream_0126.domain.html                                    274 bytes
+"       session_0126.domain.txt                                    526 bytes
+127  192.168.32.128:51828 <-> 192.168.32.2:53      (domain)         94 bytes
+"       stream_0127.domain.html                                    145 bytes
+"       session_0127.domain.txt                                    523 bytes
+128  192.168.32.128:39435 <-> 192.168.32.2:53      (domain)        162 bytes
+"       stream_0128.domain.html                                    213 bytes
+"       session_0128.domain.txt                                    666 bytes
+129  127.0.0.1:51421 <-> 127.0.0.53:53             (domain)        574 bytes
+"       stream_0129.domain.html                                    743 bytes
+"       session_0129.domain.txt                                    777 bytes
+130  192.168.32.128:46822 <-> 192.168.32.2:53      (domain)        207 bytes
+"       stream_0130.domain.html                                    258 bytes
+"       session_0130.domain.txt                                    772 bytes
+131  192.168.32.128:48625 <-> 192.168.32.2:53      (domain)        367 bytes
+"       stream_0131.domain.html                                    485 bytes
+"       session_0131.domain.txt                                   1242 bytes
+132  192.168.32.128:44700 <-> 192.168.32.2:53      (domain)        174 bytes
+"       stream_0132.domain.html                                    225 bytes
+"       session_0132.domain.txt                                    692 bytes
+133  127.0.0.1:59643 <-> 127.0.0.53:53             (domain)        304 bytes
+"       stream_0133.domain.html                                    412 bytes
+"       session_0133.domain.txt                                    633 bytes
+134  192.168.32.128:33445 <-> 192.168.32.2:53      (domain)        140 bytes
+"       stream_0134.domain.html                                    191 bytes
+"       session_0134.domain.txt                                    601 bytes
+135  192.168.32.128:42439 <-> 192.168.32.2:53      (domain)        164 bytes
+"       stream_0135.domain.html                                    215 bytes
+"       session_0135.domain.txt                                    629 bytes
+136  127.0.0.1:54139 <-> 127.0.0.53:53             (domain)        300 bytes
+"       stream_0136.domain.html                                    402 bytes
+"       session_0136.domain.txt                                    565 bytes
+137  192.168.32.128:46389 <-> 192.168.32.2:53      (domain)        166 bytes
+"       stream_0137.domain.html                                    217 bytes
+"       session_0137.domain.txt                                    653 bytes
+138  192.168.32.128:51694 <-> 192.168.32.2:53      (domain)        216 bytes
+"       stream_0138.domain.html                                    299 bytes
+"       session_0138.domain.txt                                    737 bytes
+139  127.0.0.1:43417 <-> 127.0.0.53:53             (domain)        324 bytes
+"       stream_0139.domain.html                                    458 bytes
+"       session_0139.domain.txt                                    752 bytes
+140  192.168.32.128:44286 <-> 192.168.32.2:53      (domain)        194 bytes
+"       stream_0140.domain.html                                    277 bytes
+"       session_0140.domain.txt                                    748 bytes
+141  192.168.32.128:42335 <-> 192.168.32.2:53      (domain)        188 bytes
+"       stream_0141.domain.html                                    239 bytes
+"       session_0141.domain.txt                                    716 bytes
+142  127.0.0.1:55772 <-> 127.0.0.53:53             (domain)        472 bytes
+"       stream_0142.domain.html                                    574 bytes
+"       session_0142.domain.txt                                    660 bytes
+143  192.168.32.128:49945 <-> 192.168.32.2:53      (domain)        156 bytes
+"       stream_0143.domain.html                                    207 bytes
+"       session_0143.domain.txt                                    657 bytes
+144  192.168.32.128:52964 <-> 192.168.32.2:53      (domain)        316 bytes
+"       stream_0144.domain.html                                    367 bytes
+"       session_0144.domain.txt                                   1029 bytes
+145  192.168.32.128:59745 <-> 192.168.32.2:53      (domain)        191 bytes
+"       stream_0145.domain.html                                    274 bytes
+"       session_0145.domain.txt                                    685 bytes
+146  192.168.32.128:38610 <-> 192.168.32.2:53      (domain)        167 bytes
+"       stream_0146.domain.html                                    218 bytes
+"       session_0146.domain.txt                                    668 bytes
+147  127.0.0.1:60312 <-> 127.0.0.53:53             (domain)        220 bytes
+"       stream_0147.domain.html                                    322 bytes
+"       session_0147.domain.txt                                    610 bytes
+148  192.168.32.128:45880 <-> 192.168.32.2:53      (domain)        134 bytes
+"       stream_0148.domain.html                                    185 bytes
+"       session_0148.domain.txt                                    606 bytes
+149  192.168.32.128:41632 <-> 192.168.32.2:53      (domain)        170 bytes
+"       stream_0149.domain.html                                    221 bytes
+"       session_0149.domain.txt                                    683 bytes
+150  127.0.0.1:45292 <-> 127.0.0.53:53             (domain)        438 bytes
+"       stream_0150.domain.html                                    572 bytes
+"       session_0150.domain.txt                                    594 bytes
+151  192.168.32.128:55093 <-> 192.168.32.2:53      (domain)        283 bytes
+"       stream_0151.domain.html                                    366 bytes
+"       session_0151.domain.txt                                   1073 bytes
+152  192.168.32.128:45458 <-> 192.168.32.2:53      (domain)        220 bytes
+"       stream_0152.domain.html                                    271 bytes
+"       session_0152.domain.txt                                    755 bytes
+153  127.0.0.1:42258 <-> 127.0.0.53:53             (domain)        366 bytes
+"       stream_0153.domain.html                                    468 bytes
+"       session_0153.domain.txt                                    707 bytes
+154  192.168.32.128:60092 <-> 192.168.32.2:53      (domain)         45 bytes
+"       stream_0154.domain.html                                     70 bytes
+"       session_0154.domain.txt                                    497 bytes
+155  192.168.32.128:45509 <-> 192.168.32.2:53      (domain)        195 bytes
+"       stream_0155.domain.html                                    246 bytes
+"       session_0155.domain.txt                                    703 bytes
+156  192.168.32.128:40502 <-> 192.168.32.2:53      (domain)         67 bytes
+"       stream_0156.domain.html                                     92 bytes
+"       session_0156.domain.txt                                    523 bytes
+157  127.0.0.1:36421 <-> 127.0.0.53:53             (domain)        344 bytes
+"       stream_0157.domain.html                                    446 bytes
+"       session_0157.domain.txt                                    654 bytes
+158  192.168.32.128:59429 <-> 192.168.32.2:53      (domain)        166 bytes
+"       stream_0158.domain.html                                    217 bytes
+"       session_0158.domain.txt                                    634 bytes
+159  192.168.32.128:53903 <-> 192.168.32.2:53      (domain)        178 bytes
+"       stream_0159.domain.html                                    229 bytes
+"       session_0159.domain.txt                                    651 bytes
+160  192.168.32.128:60252 -> 172.217.8.174:443     (https)        6886 bytes
+161  127.0.0.1:39609 <-> 127.0.0.53:53             (domain)        448 bytes
+"       stream_0161.domain.html                                    550 bytes
+"       session_0161.domain.txt                                    661 bytes
+162  192.168.32.128:34068 <-> 192.168.32.2:53      (domain)        270 bytes
+"       stream_0162.domain.html                                    321 bytes
+"       session_0162.domain.txt                                    844 bytes
+163  192.168.32.128:57833 <-> 192.168.32.2:53      (domain)        203 bytes
+"       stream_0163.domain.html                                    229 bytes
+"       session_0163.domain.txt                                    854 bytes
+164  192.168.32.128:54659 <-> 192.168.32.2:53      (domain)         57 bytes
+"       stream_0164.domain.html                                     82 bytes
+"       session_0164.domain.txt                                    513 bytes
+165  127.0.0.1:60574 <-> 127.0.0.53:53             (domain)        318 bytes
+"       stream_0165.domain.html                                    420 bytes
+"       session_0165.domain.txt                                    558 bytes
+166  192.168.32.128:40060 <-> 192.168.32.2:53      (domain)        185 bytes
+"       stream_0166.domain.html                                    242 bytes
+"       session_0166.domain.txt                                    713 bytes
+167  127.0.0.1:59915 <-> 127.0.0.53:53             (domain)        220 bytes
+"       stream_0167.domain.html                                    322 bytes
+"       session_0167.domain.txt                                    622 bytes
+168  192.168.32.128:46811 <-> 192.168.32.2:53      (domain)        142 bytes
+"       stream_0168.domain.html                                    193 bytes
+"       session_0168.domain.txt                                    618 bytes
+169  192.168.32.128:54449 <-> 192.168.32.2:53      (domain)        143 bytes
+"       stream_0169.domain.html                                    194 bytes
+"       session_0169.domain.txt                                    662 bytes
+170  192.168.32.128:38482 -> 99.86.230.19:443      (https)        6342 bytes
+171  192.168.32.128:40431 <-> 192.168.32.2:53      (domain)        169 bytes
+"       stream_0171.domain.html                                    220 bytes
+"       session_0171.domain.txt                                    669 bytes
+172  192.168.32.128:42136 <-> 192.168.32.2:53      (domain)        147 bytes
+"       stream_0172.domain.html                                    173 bytes
+"       session_0172.domain.txt                                    749 bytes
+173  127.0.0.1:57044 <-> 127.0.0.53:53             (domain)        262 bytes
+"       stream_0173.domain.html                                    338 bytes
+"       session_0173.domain.txt                                    633 bytes
+174  192.168.32.128:48052 <-> 192.168.32.2:53      (domain)        213 bytes
+"       stream_0174.domain.html                                    264 bytes
+"       session_0174.domain.txt                                    700 bytes
+175  192.168.32.128:41991 <-> 192.168.32.2:53      (domain)        287 bytes
+"       stream_0175.domain.html                                    370 bytes
+"       session_0175.domain.txt                                    832 bytes
+176  192.168.32.128:59909 <-> 192.168.32.2:53      (domain)        257 bytes
+"       stream_0176.domain.html                                    340 bytes
+"       session_0176.domain.txt                                    741 bytes
+177  192.168.32.128:42346 -> 34.98.75.36:443       (https)        4948 bytes
+178  127.0.0.1:37744 <-> 127.0.0.53:53             (domain)        424 bytes
+"       stream_0178.domain.html                                    558 bytes
+"       session_0178.domain.txt                                    579 bytes
+179  192.168.32.128:36017 <-> 192.168.32.2:53      (domain)        276 bytes
+"       stream_0179.domain.html                                    359 bytes
+"       session_0179.domain.txt                                    927 bytes
+180  192.168.32.128:37481 <-> 192.168.32.2:53      (domain)         56 bytes
+"       stream_0180.domain.html                                     81 bytes
+"       session_0180.domain.txt                                    512 bytes
+181  192.168.32.128:58047 <-> 192.168.32.2:53      (domain)        187 bytes
+"       stream_0181.domain.html                                    270 bytes
+"       session_0181.domain.txt                                    681 bytes
+182  192.168.32.128:41588 -> 54.70.228.208:443     (https)        5617 bytes
+183  127.0.0.1:52471 <-> 127.0.0.53:53             (domain)        264 bytes
+"       stream_0183.domain.html                                    366 bytes
+"       session_0183.domain.txt                                    555 bytes
+184  192.168.32.128:51640 -> 72.21.91.29:80        (http)         1176 bytes
+"       session_0184.http.html                                    1329 bytes
+"       session_0184.part_01.ocsp                                  471 bytes
+185  127.0.0.1:54906 <-> 127.0.0.53:53             (domain)        216 bytes
+"       stream_0185.domain.html                                    318 bytes
+"       session_0185.domain.txt                                    535 bytes
+186  192.168.32.128:51401 <-> 192.168.32.2:53      (domain)        102 bytes
+"       stream_0186.domain.html                                    153 bytes
+"       session_0186.domain.txt                                    532 bytes
+187  192.168.32.128:60663 <-> 192.168.32.2:53      (domain)        114 bytes
+"       stream_0187.domain.html                                    165 bytes
+"       session_0187.domain.txt                                    549 bytes
+188  192.168.32.128:42352 -> 172.217.4.228:443     (https)        3141 bytes
+189  127.0.0.1:49956 <-> 127.0.0.53:53             (domain)        282 bytes
+"       stream_0189.domain.html                                    384 bytes
+"       session_0189.domain.txt                                    609 bytes
+190  192.168.32.128:55638 -> 172.217.4.99:80       (http)         1082 bytes
+"       session_0190.http.html                                    1200 bytes
+"       session_0190.part_01.ocsp                                  471 bytes
+191  192.168.32.128:42356 -> 172.217.4.228:443     (https)        1947 bytes
+192  192.168.32.128:42358 -> 172.217.4.228:443     (https)        3142 bytes
+193  192.168.32.128:42360 -> 172.217.4.228:443     (https)        3141 bytes
+194  127.0.0.1:44806 <-> 127.0.0.53:53             (domain)        176 bytes
+"       stream_0194.domain.html                                    253 bytes
+"       session_0194.domain.txt                                    555 bytes
+195  127.0.0.1:52793 <-> 127.0.0.53:53             (domain)        173 bytes
+"       stream_0195.domain.html                                    250 bytes
+"       session_0195.domain.txt                                    553 bytes
+196  192.168.32.128:39373 <-> 192.168.32.2:53      (domain)        104 bytes
+"       stream_0196.domain.html                                    155 bytes
+"       session_0196.domain.txt                                    533 bytes
+197  192.168.32.128:56479 <-> 192.168.32.2:53      (domain)        116 bytes
+"       stream_0197.domain.html                                    167 bytes
+"       session_0197.domain.txt                                    551 bytes
+198  192.168.32.128:42362 -> 172.217.4.228:443     (https)      452308 bytes
+199  192.168.32.128:49204 -> 172.217.6.99:443      (https)      108276 bytes
+200  127.0.0.1:55534 <-> 127.0.0.53:53             (domain)        220 bytes
+"       stream_0200.domain.html                                    322 bytes
+"       session_0200.domain.txt                                    555 bytes
+201  192.168.32.128:39154 <-> 192.168.32.2:53      (domain)        104 bytes
+"       stream_0201.domain.html                                    155 bytes
+"       session_0201.domain.txt                                    532 bytes
+202  192.168.32.128:53905 <-> 192.168.32.2:53      (domain)        116 bytes
+"       stream_0202.domain.html                                    167 bytes
+"       session_0202.domain.txt                                    551 bytes
+203  127.0.0.1:51208 <-> 127.0.0.53:53             (domain)        212 bytes
+"       stream_0203.domain.html                                    314 bytes
+"       session_0203.domain.txt                                    535 bytes
+204  192.168.32.128:44832 <-> 192.168.32.2:53      (domain)        100 bytes
+"       stream_0204.domain.html                                    151 bytes
+"       session_0204.domain.txt                                    531 bytes
+205  192.168.32.128:42547 <-> 192.168.32.2:53      (domain)        112 bytes
+"       stream_0205.domain.html                                    163 bytes
+"       session_0205.domain.txt                                    545 bytes
+206  192.168.32.128:36224 -> 172.217.5.3:443       (https)        5214 bytes
+207  192.168.32.128:50638 -> 172.217.160.99:443    (https)        6602 bytes
+208  127.0.0.1:52196 <-> 127.0.0.53:53             (domain)        262 bytes
+"       stream_0208.domain.html                                    364 bytes
+"       session_0208.domain.txt                                    605 bytes
+209  192.168.32.128:55867 <-> 192.168.32.2:53      (domain)        125 bytes
+"       stream_0209.domain.html                                    176 bytes
+"       session_0209.domain.txt                                    584 bytes
+210  192.168.32.128:40663 <-> 192.168.32.2:53      (domain)        137 bytes
+"       stream_0210.domain.html                                    188 bytes
+"       session_0210.domain.txt                                    600 bytes
+211  192.168.32.128:60280 -> 172.217.8.174:443     (https)        4398 bytes
+212  127.0.0.1:53764 <-> 127.0.0.53:53             (domain)        272 bytes
+"       stream_0212.domain.html                                    381 bytes
+"       session_0212.domain.txt                                    556 bytes
+213  192.168.32.128:44217 <-> 192.168.32.2:53      (domain)        189 bytes
+"       stream_0213.domain.html                                    272 bytes
+"       session_0213.domain.txt                                    754 bytes
+214  192.168.32.128:52364 <-> 192.168.32.2:53      (domain)        183 bytes
+"       stream_0214.domain.html                                    240 bytes
+"       session_0214.domain.txt                                    711 bytes
+215  127.0.0.1:59179 <-> 127.0.0.53:53             (domain)        320 bytes
+"       stream_0215.domain.html                                    422 bytes
+"       session_0215.domain.txt                                    616 bytes
+216  192.168.32.128:56440 <-> 192.168.32.2:53      (domain)        154 bytes
+"       stream_0216.domain.html                                    205 bytes
+"       session_0216.domain.txt                                    612 bytes
+217  192.168.32.128:36920 <-> 192.168.32.2:53      (domain)        166 bytes
+"       stream_0217.domain.html                                    217 bytes
+"       session_0217.domain.txt                                    629 bytes
+218  127.0.0.1:34111 <-> 127.0.0.53:53             (domain)        258 bytes
+"       stream_0218.domain.html                                    366 bytes
+"       session_0218.domain.txt                                    585 bytes
+219  192.168.32.128:48888 <-> 192.168.32.2:53      (domain)        123 bytes
+"       stream_0219.domain.html                                    174 bytes
+"       session_0219.domain.txt                                    581 bytes
+220  192.168.32.128:54281 <-> 192.168.32.2:53      (domain)        135 bytes
+"       stream_0220.domain.html                                    186 bytes
+"       session_0220.domain.txt                                    599 bytes
+221  192.168.32.128:50024 <-> 192.168.32.2:53      (domain)        173 bytes
+"       stream_0221.domain.html                                    224 bytes
+"       session_0221.domain.txt                                    670 bytes
+222  192.168.32.128:51194 -> 172.217.4.78:443      (https)       12147 bytes
+223  192.168.32.128:36110 -> 172.217.4.226:443     (https)        6622 bytes
+224  127.0.0.1:58657 <-> 127.0.0.53:53             (domain)        318 bytes
+"       stream_0224.domain.html                                    420 bytes
+"       session_0224.domain.txt                                    647 bytes
+225  192.168.32.128:57525 <-> 192.168.32.2:53      (domain)        153 bytes
+"       stream_0225.domain.html                                    204 bytes
+"       session_0225.domain.txt                                    626 bytes
+226  192.168.32.128:51957 <-> 192.168.32.2:53      (domain)        165 bytes
+"       stream_0226.domain.html                                    216 bytes
+"       session_0226.domain.txt                                    643 bytes
+227  192.168.32.128:45448 -> 172.217.8.194:443     (https)        5914 bytes
+228  127.0.0.1:5678 <-> 127.0.0.1:1234             (1234)        74902 bytes
+229  127.0.0.1:45547 <-> 127.0.0.53:53             (domain)        311 bytes
+"       stream_0229.domain.html                                    422 bytes
+"       session_0229.domain.txt                                    743 bytes
+230  192.168.32.128:47647 <-> 192.168.32.2:53      (domain)        380 bytes
+"       stream_0230.domain.html                                    498 bytes
+"       session_0230.domain.txt                                   1473 bytes
+231  192.168.32.128:55689 <-> 192.168.32.2:53      (domain)        330 bytes
+"       stream_0231.domain.html                                    451 bytes
+"       session_0231.domain.txt                                    921 bytes
+232  192.168.32.128:57325 <-> 192.168.32.2:53      (domain)        264 bytes
+"       stream_0232.domain.html                                    350 bytes
+"       session_0232.domain.txt                                    731 bytes
+233  127.0.0.1:36461 <-> 127.0.0.53:53             (domain)        632 bytes
+"       stream_0233.domain.html                                    836 bytes
+"       session_0233.domain.txt                                    743 bytes
+234  127.0.0.1:39316 <-> 127.0.0.53:53             (domain)        632 bytes
+"       stream_0234.domain.html                                    836 bytes
+"       session_0234.domain.txt                                    743 bytes
+235  127.0.0.1:51748 <-> 127.0.0.53:53             (domain)        632 bytes
+"       stream_0235.domain.html                                    836 bytes
+"       session_0235.domain.txt                                    743 bytes
+236  192.168.32.128:39098 -> 99.86.230.100:443     (https)         198 bytes
+237  127.0.0.1:43918 <-> 127.0.0.53:53             (domain)        296 bytes
+"       stream_0237.domain.html                                    430 bytes
+"       session_0237.domain.txt                                    547 bytes
+238  192.168.32.128:57608 <-> 192.168.32.2:53      (domain)        180 bytes
+"       stream_0238.domain.html                                    263 bytes
+"       session_0238.domain.txt                                    734 bytes
+239  192.168.32.128:32860 <-> 192.168.32.2:53      (domain)        174 bytes
+"       stream_0239.domain.html                                    225 bytes
+"       session_0239.domain.txt                                    702 bytes
+240  127.0.0.1:33666 <-> 127.0.0.53:53             (domain)        164 bytes
+"       stream_0240.domain.html                                    215 bytes
+"       session_0240.domain.txt                                    642 bytes
+241  192.168.32.128:42057 <-> 192.168.32.2:53      (domain)        164 bytes
+"       stream_0241.domain.html                                    215 bytes
+"       session_0241.domain.txt                                    638 bytes
+242  192.168.32.128:33438 <-> 192.168.32.2:53      (domain)        206 bytes
+"       stream_0242.domain.html                                    257 bytes
+"       session_0242.domain.txt                                    758 bytes
+243  192.168.32.128:50661 <-> 192.168.32.2:53      (domain)        155 bytes
+"       stream_0243.domain.html                                    206 bytes
+"       session_0243.domain.txt                                    662 bytes
+244  192.168.32.128:59647 <-> 192.168.32.2:53      (domain)        167 bytes
+"       stream_0244.domain.html                                    218 bytes
+"       session_0244.domain.txt                                    666 bytes
+245  127.0.0.1:36324 <-> 127.0.0.53:53             (domain)        632 bytes
+"       stream_0245.domain.html                                    836 bytes
+"       session_0245.domain.txt                                    743 bytes
+246  192.168.32.128:42380 -> 172.217.4.228:443     (https)        5141 bytes
+247  127.0.0.1:40389 <-> 127.0.0.53:53             (domain)        344 bytes
+"       stream_0247.domain.html                                    478 bytes
+"       session_0247.domain.txt                                    571 bytes
+248  192.168.32.128:48204 <-> 192.168.32.2:53      (domain)         49 bytes
+"       stream_0248.domain.html                                     74 bytes
+"       session_0248.domain.txt                                    504 bytes
+249  192.168.32.128:38384 <-> 192.168.32.2:53      (domain)        118 bytes
+"       stream_0249.domain.html                                    144 bytes
+"       session_0249.domain.txt                                    672 bytes
+250  127.0.0.1:46501 <-> 127.0.0.53:53             (domain)        180 bytes
+"       stream_0250.domain.html                                    282 bytes
+"       session_0250.domain.txt                                    503 bytes
+251  192.168.32.128:39656 <-> 192.168.32.2:53      (domain)        199 bytes
+"       stream_0251.domain.html                                    275 bytes
+"       session_0251.domain.txt                                    345 bytes
+252  192.168.32.128:54235 <-> 192.168.32.2:53      (domain)        308 bytes
+"       stream_0252.domain.html                                    410 bytes
+"       session_0252.domain.txt                                    507 bytes
+253  224.0.0.251:5353 <-> 192.168.32.1:5353        (mdns)          112 bytes
+254  127.0.0.1:43216 <-> 127.0.0.53:53             (domain)        632 bytes
+"       stream_0254.domain.html                                    836 bytes
+"       session_0254.domain.txt                                    743 bytes
+255  127.0.0.1:57939 <-> 127.0.0.53:53             (domain)        632 bytes
+"       stream_0255.domain.html                                    836 bytes
+"       session_0255.domain.txt                                    743 bytes
+256  127.0.0.1:35039 <-> 127.0.0.53:53             (domain)        632 bytes
+"       stream_0256.domain.html                                    836 bytes
+"       session_0256.domain.txt                                    743 bytes
+257  127.0.0.1:42436 <-> 127.0.0.53:53             (domain)        264 bytes
+"       stream_0257.domain.html                                    468 bytes
+"       session_0257.domain.txt                                    494 bytes
+258  127.0.0.1:57776 <-> 127.0.0.53:53             (domain)        180 bytes
+"       stream_0258.domain.html                                    282 bytes
+"       session_0258.domain.txt                                    506 bytes
+259  127.0.0.1:33789 <-> 127.0.0.53:53             (domain)        231 bytes
+"       stream_0259.domain.html                                    422 bytes
+"       session_0259.domain.txt                                    494 bytes
